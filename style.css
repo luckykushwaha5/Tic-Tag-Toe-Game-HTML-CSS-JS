@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #8aa8a1;
+    text-align: center;
+}
+
+#heading{
+    font-size: 60px;
+    font-family: "Micro 5 Charted", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container{
+    margin-top: 12vh;
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1vmin;
+}
+
+.box{
+    height: 19vmin;
+    width: 19vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgb(0, 0, 0, 0.6);
+    font-size: 10vmin;
+    background-color: rgb(186, 186, 164);
+    color: black;
+}
+
+#reset{
+    height: 7vh;
+    width: 15vw;
+    font-size: 4vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgb(0, 0, 0, 0.6);
+    margin-top: 5vh;
+}
+
+#reset:hover{
+    background-color: red;
+    color: white;
+}
+
+.details{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#win{
+    background-color: green;
+    height: 15px;
+    width: 30px;
+}
+#lose{
+    background-color: red;
+    height: 15px;
+    width: 30px;
+}
+
+.winBox{
+    margin-top: 5px;
+    border: 1px solid black;
+    height: 25vmin;
+    width: 25vmin;
+}
+.winClass{
+    background-color: green;
+}
+.loseBox{
+    margin-top: 5px;
+    border: 1px solid black;
+    height: 25vmin;
+    width: 25vmin;
+}
+.loseClass{
+    background-color: red;
+}
+
+.playerStyle{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.winCount{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
